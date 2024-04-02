@@ -811,7 +811,7 @@ footer p {
    align-self: center;
 }
 
-.faq{
+.faq-link{
     background-color: #D6D6FF;
     padding: 10%;
     display: flex;
@@ -819,12 +819,12 @@ footer p {
     align-items: center;
 }
 
-.faq h1{
+.faq-link h1{
     font-family:"Libre Baskerville";
     font-size: 1.5em;
 }
 
-.faq button {
+.faq-link button {
     background-color: #262626;
     border: none;
     border-radius: 10px;
@@ -839,7 +839,7 @@ footer p {
     
 }
 
-.faq button:hover{
+.faq-link button:hover{
     background-color: #444444;
 }
 
@@ -889,4 +889,48 @@ footer p {
     
 }
 
+
+
+
+/*FAQ*/
+
+.faq{
+    background-color: #D6D6FF;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.faq h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "Libre Baskerville";
+}
+
+.faq-item ul, li, a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: "Montserrat Alternates";
+    padding: 1% 0;
+    text-align: center;
+}
+
+.faq-item ul, li, a:hover{
+    color: #444444;
+}
+
+.resposta {
+    color: #262626;
+    font-size: 1.25em;
+    font-family: "Montserrat Alternates";
+    max-width: 100%;
+    text-align: justify;
+    display: none;
+    transition: display 0.5;
+}
 
