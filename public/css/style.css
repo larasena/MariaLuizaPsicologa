@@ -450,7 +450,7 @@ label, input, textarea, input, button[type="submit"] {
 
 .links-uteis a {
     text-decoration: none;
-    color: #171B26;
+    color: #262626;
     font-family: "Montserrat Alternates";
     padding: 3%;
     font-size: 1.125em;
@@ -459,7 +459,7 @@ label, input, textarea, input, button[type="submit"] {
 }
 
 .links-uteis a:hover{
-    color: #4D4B37;
+    color: #444444;
 }
 
 
@@ -688,7 +688,7 @@ footer p {
 /* --- BLOG --- */
 
 .abordagem {
-    background-color: #FEFAF5;
+    background-color: #D6D6FF;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -699,7 +699,7 @@ footer p {
 .abordagem-texto {
     width: 70%;
     padding-left: 5%;
-    color: #171B26;
+    color: #262626;
 }
 
 .abordagem-texto h1{
@@ -710,12 +710,11 @@ footer p {
 .abordagem-texto p{
     font-family: "Montserrat Alternates";
     font-size: 1.5em;
-    
-    color: #171B26;;
+    color: #262626;;
 }
 
 .avaliacao-presencial {
-    background-color: #EED8C1;
+    background-color: #D6D6FF;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -725,7 +724,7 @@ footer p {
 .avaliacao-presencial-texto {
     width: 70%;
     padding-left: 5%;
-    color: #171B26;
+    color: #262626;
 }
 
 .avaliacao-presencial h1{
@@ -737,7 +736,7 @@ footer p {
     font-family: "Montserrat Alternates";
     font-size: 1.5em;
     
-    color: #171B26;;
+    color: #262626;;
 }
 
 .avaliacao-presencial img{
@@ -747,7 +746,7 @@ footer p {
 
 
 .orientacao-online {
-    background-color: #FEFAF5;
+    background-color: #D6D6FF;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -756,7 +755,7 @@ footer p {
 .orientacao-online-texto {
     width: 70%;
     padding-left: 5%;
-    color: #171B26;
+    color: #262626;
 }
 
 .orientacao-online h1{
@@ -768,7 +767,7 @@ footer p {
     font-family: "Montserrat Alternates";
     font-size: 1.5em;
     
-    color: #171B26;;
+    color: #262626;;
 }
 
 .orientacao-online img{
@@ -778,7 +777,7 @@ footer p {
 
 
 .artigos {
-    background-color: #EED8C1;
+    background-color: #D6D6FF;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -788,7 +787,7 @@ footer p {
 .artigos-texto {
     width: 70%;
     padding-left: 5%;
-    color: #171B26;
+    color: #262626;
     
 }
 
@@ -800,7 +799,7 @@ footer p {
 .artigos p, ol li{
     font-family: "Montserrat Alternates";
     font-size: 1.5em;
-    color: #171B26;;
+    color: #262626;;
 }
 
 .artigos ol li {
@@ -813,8 +812,11 @@ footer p {
 }
 
 .faq{
-    background-color: #FEFAF5;
+    background-color: #D6D6FF;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .faq h1{
@@ -828,8 +830,8 @@ footer p {
     border-radius: 10px;
     color: #EBEBF2;
     font-size: 1.25rem;
-    padding: 1% 2%;
-    margin: 2%;
+    padding: 3% 5%;
+    margin-top: 3vw;
     margin-right: 8vw;
     white-space: nowrap;
     transition: color 0.3s;
