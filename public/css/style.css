@@ -53,10 +53,10 @@ header{
 }
 
 .menu a button {
-    background-color: #262626;
+    background-color: #f2f2f2;
     border: none;
     border-radius: 10px;
-    color: #f2f2f2;
+    color: #262626;
     font-size: 1.25rem;
     padding: 6% 9%;
     white-space: nowrap;
@@ -65,7 +65,7 @@ header{
 }
 
 .menu a button:hover{
-    background-color: #444444;
+    background-color: #EBEBF2;
 }
 
 
@@ -79,6 +79,7 @@ header{
     flex-direction: column;
     max-width: 100%;
     padding: 20% 0;
+    align-items: center;
 }
 
 
@@ -90,43 +91,39 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(235, 235, 242, 0.5);
+    background-color: rgba(235, 235, 242, 0.6);
     z-index: 1;
 }
 
 .inicio h1 {
-    margin-left: 8vw;
     color: #262626;
     z-index: 2;
     font-family: "Libre Baskerville";
     font-size: 4rem;
-    max-width: 70%;
     margin-bottom: 3%;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
 .inicio p {
-    margin-left: 8vw;
     color: #262626;
     z-index: 2;
     font-family: "Montserrat Alternates";
-    font-size: 1em;
-    max-width: 50%;
+    font-size: 1.5em;
     margin-bottom: 3%;
 }
 
 .inicio a {
-    margin-left: 8vw;
     z-index: 2;
 }
 
 .inicio button {
     background-color: #262626;
     cursor: pointer;
-    color: #EBEBF2;
+    color: #f2f2f2;
     border-radius: 10px; 
-    padding: 1.5% 2%;
+    padding: 3% 2%;
     font-family: "Montserrat Alternates";
     font-size: 1.125rem;
     border: none;
@@ -445,7 +442,7 @@ label, input, textarea, input, button[type="submit"] {
     flex-direction: column;
     align-self: center;
     align-items: flex-start;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 
 .links-uteis a {
@@ -505,6 +502,15 @@ footer p {
         justify-content: space-evenly;
     }
 
+    .inicio h1 {
+        font-size: 2em;
+    }
+
+    .inicio p {
+        font-size: 1.12em;
+        max-width: 80%;
+    }
+
     .blog {
         display: flex;
         align-items: center;
@@ -548,6 +554,54 @@ footer p {
         flex-wrap: wrap;
     }
 
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        align-content: center;
+    }
+
+    .redes-sociais{
+        width: 100%;
+        padding-bottom: 8%;
+        border-bottom: 1px solid black;
+    }
+
+    .redes-sociais i{
+       font-size: 1em;
+    }
+
+    .links-uteis {
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 5%;
+        padding-top: 3%;
+        border-bottom: 1px solid black;
+    }
+
+    .item {
+        display: inline-block;
+        padding: 2%;
+    }
+
+    .item  p {
+        display: none;
+    }
+
+    .item i {
+        font-size: 1em;
+    }
+
+    .contato-dados {
+        width: 100%;
+        padding-top: 8%;
+    }
+
+    .contato-dados i {
+        padding-top: 8%;
+    }    
+
+
     .localizacao {
         display: flex;
         flex-direction: column; /* Altera a direção do layout para empilhar verticalmente */
@@ -576,7 +630,22 @@ footer p {
         padding: 3% 0;
     }
 
-   
+    .inicio h1 {
+        font-size: 1.8em;
+        max-width: 80%;
+    }
+
+    .inicio p {
+        font-size: 1em;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .inicio button {
+        font-size: 0.8em;
+        max-width: 80%;
+        text-align: center;
+    }
 
     .texto-principal {
         font-size: 1.125em;
@@ -609,7 +678,11 @@ footer p {
     }
 
     .localizacao-texto h2{
-        font-size: 1.75em;
+        font-size: 1.12em;
+    }
+
+    .localizacao-texto p{
+        font-size: 1em;
     }
 
     .localizacao iframe {
@@ -633,48 +706,6 @@ footer p {
         padding-top: 10%;
         align-self: flex-start;
     }
-
-
-    .contato {
-        display: flex;
-        flex-direction: column;
-        gap: 20%;
-        align-content: center;
-    }
-
-    .redes-sociais{
-        width: 100%;
-        padding-bottom: 8%;
-        border-bottom: 1px solid black;
-    }
-
-    .links-uteis {
-        width: 100%;
-        margin-right: 0;
-        padding-bottom: 5%;
-        padding-top: 3%;
-        border-bottom: 1px solid black;
-    }
-
-    .item {
-        display: inline-block;
-        padding: 2%;
-    }
-
-    
-
-    .item  p {
-        display: none;
-    }
-
-    .contato-dados {
-        width: 100%;
-        padding-top: 8%;
-    }
-
-    .contato-dados i {
-        padding-top: 8%;
-    }    
 
     footer{
       padding: 3% 0;
@@ -931,6 +962,6 @@ footer p {
     max-width: 100%;
     text-align: justify;
     display: none;
-    transition: display 0.5;
+    transition: display 0.5, display 0.5;
 }
 
