@@ -7,143 +7,214 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="public/css/fonts.css">
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="public/assets/images/favicon.png">
-    <title>Maria Luiza Psicóloga</title>
+    <link rel="shortcut icon" type="image/x-icon" href="public/assets/images/favicon.ico">
+    <title>Maria Castro Psicóloga</title>
 </head>
-<body>
-    <header>
-        <section class="menu" id="menu">
-            <div class="logo">
-                <a href="index.html"><img src="public/assets/images/logo.png" alt="logo"></a>
-                <a href="index.html"><p>Maria Luiza  <br>Psicóloga</p></a>
-            </div>
-            <div>
-                <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank"><button class="botao">Reservar agora</button></a>
-            </div>
-        </section>
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-    
-    <section class="formulario" id="formulario">
-        <div class="formulario-itens">
-            <form method="post" action="public/scripts/script.php" >
-                <div class="form-group">
-                    <label for="nome" >Nome</label>
-                    <input type="text" name="nome" required>
+    <body>
+        
+        <header>
+            <section class="menu" id="menu">
+                <div class="logo">
+                    <a href="index.html"><img src="public/assets/images/logo.svg" alt="logo"></a>
+                    <a href="index.html"><p>Maria Castro  <br>Psicóloga</p></a>
                 </div>
-                
-                <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" name="telefone" required>
+                <div>
+                    <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank"><button class="botao">Reservar agora</button></a>
                 </div>
-                
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" required>
+            </section>
+        </header>
+
+        <main>
+
+
+            <section class="faq" id="faq">
+                <h1>FAQ</h1>
+
+                <div faq-item>
+                    <ul>
+                        <li><a href="#resposta1" onclick="mostrarResposta('resposta1')">O que é terapia, como funciona?</a></li>
+                        <li id="resposta1" class="resposta">A terapia é um processo colaborativo e empático entre terapeuta e cliente, focado na exploração e resolução de questões emocionais, comportamentais e interpessoais. Durante as sessões, você será incentivado a compartilhar suas experiências, pensamentos e emoções de forma segura e confidencial. Iremos utilizar técnicas e abordagens terapêuticas adequadas, com o objetivo de ajudar o paciente a ganhar autoconhecimento, desenvolver habilidades de enfrentamento
+                        saudáveis e promover mudanças positivas em sua vida. Essa jornada terapêutica é
+                        baseada na confiança, respeito mútuo e na construção de uma relação terapêutica
+                        sólida, fundamental para o progresso e bem-estar</li>
+
+                        <li><a href="#pergunta2" onclick="mostrarResposta('resposta2')">Como sei se preciso de terapia? </a></li>
+                        <li id="resposta2" class="resposta">A decisão de buscar terapia é pessoal e única para cada indivíduo. No entanto, algumas indicações comuns de que alguém pode se beneficiar do processo terapêutico incluem sentir-se constantemente sobrecarregado por emoções
+                        intensas, como tristeza, ansiedade ou raiva, dificuldade em lidar com situações
+                        estressantes da vida, problemas persistentes nos relacionamentos, dificuldade em
+                        superar traumas passados ou experiências dolorosas, e padrões de comportamento
+                        autodestrutivos ou prejudiciais. Se você estiver enfrentando esses desafios ou
+                        qualquer outro tipo de dificuldade que esteja afetando significativamente sua
+                        qualidade de vida, bem-estar emocional ou funcionamento diário, pode ser útil
+                        considerar a terapia como um recurso para explorar essas questões e trabalhar em
+                        direção ao crescimento pessoal e ao alívio do sofrimento emocional.
+                            </li>
+
+
+                        <li><a href="#pergunta3" onclick="mostrarResposta('resposta3')">Quanto tempo dura uma sessão de terapia e com que frequência devo comparecer?</a></li>
+                        <li id="resposta3" class="resposta">Minhas sessões de terapia geralmente têm duração de 40 a 50 minutos, pois esse
+                        tempo é geralmente considerado adequado para explorar questões profundas de
+                        forma eficaz, sem sobrecarregar o cliente. Quanto à frequência das sessões, a
+                        recomendação comum é de uma vez por semana. Isso permite um compromisso
+                        consistente com o processo terapêutico, criando uma base sólida para o trabalho
+                        contínuo. No entanto, a frequência das sessões pode variar dependendo das
+                        necessidades individuais do cliente e da natureza das questões que estão sendo
+                        abordadas.
+                        </li>
+
+
+                        <li><a href="#pergunta4" onclick="mostrarResposta('resposta4')">Como é mantida a confidencialidade durante as sessões de terapia? </a></li>
+                        <li id="resposta4" class="resposta">Mantenho a confidencialidade durante as sessões de terapia de acordo com
+                        Código de Ética Profissional do Psicólogo, regulamentado pelo Conselho Regional
+                        de Psicologia de Minas Gerais (CRP-MG). Este código estabelece que todas as
+                        informações reveladas pelo cliente durante o processo terapêutico devem ser
+                        tratadas com absoluto sigilo e confidencialidade, salvo em casos em que haja risco
+                        iminente de danos ao próprio cliente ou a terceiros, em conformidade com a
+                        legislação vigente.
+                        Além disso, o Código de Ética do CRP-MG também enfatiza a importância do
+                        consentimento informado do cliente para qualquer forma de divulgação de
+                        informações confidenciais, garantindo que o cliente tenha pleno conhecimento e
+                        concordância com os procedimentos adotados. Como psicóloga, estou
+                        comprometida em seguir esses princípios éticos para proteger a privacidade e a
+                        segurança das informações dos meus clientes, tanto em sessões presenciais
+                        quanto online, promovendo um ambiente terapêutico de confiança e respeito mútuo.
+                        </li>
+
+
+                        <li><a href="#pergunta5" onclick="mostrarResposta('resposta5')">Quanto custa a terapia e existem opções para planos de saúde?</a></li>
+                        <li id="resposta5" class="resposta">Como parte da minha política profissional, não costumo divulgar os custos da
+                        terapia em um site público. Isso ocorre porque considero importante discutir esses
+                        detalhes diretamente com cada cliente, garantindo que possamos encontrar um
+                        acordo justo e acessível para ambas as partes.
+                        Embora eu não aceite planos de saúde, estou aberta a discutir opções de
+                        pagamento flexíveis para atender às necessidades individuais de cada paciente.
+                        Isso pode incluir descontos para pagamento adiantado, pacotes de sessões com
+                        preços reduzidos ou outras modalidades de pagamento que possam facilitar o
+                        acesso à terapia.
+                        Se você estiver interessado em iniciar a terapia e gostaria de discutir os custos e
+                        opções de pagamento, fique à vontade para entrar em contato comigo para agendar
+                        uma consulta inicial.
+                        </li>
+
+
+                        <li><a href="#pergunta6" onclick="mostrarResposta('resposta6')">O que esperar da primeira sessão de terapia? </a></li>
+                        <li id="resposta6" class="resposta">Na primeira sessão de terapia, você pode esperar um espaço acolhedor e livre de
+                        julgamentos, onde teremos a oportunidade de nos conhecermos e discutirmos suas
+                        preocupações e objetivos. Vou ouvir atentamente sua história e fornecer um
+                        ambiente seguro para você compartilhar suas experiências e emoções. Juntos,
+                        vamos trabalhar para estabelecer uma relação de confiança e colaboração,
+                        enquanto começamos a explorar os desafios que você enfrenta e delineamos um
+                        plano de tratamento personalizado para ajudá-lo a alcançar seus objetivos.
+                        Essa primeira sessão é uma oportunidade para começarmos a jornada terapêutica,
+                        e para você sentir-se confortável e seguro enquanto exploramos as questões que o
+                        trouxeram à terapia.</li>
+                    </ul>
                 </div>
-                
-                <div class="form-group">
-                    <label for="descricao">Mensagem</label>
-                    <textarea name="descricao"  cols="30" rows="10" required></textarea>
-                </div>
-            </form>
-                <button name="create" class="botao-enviar" type="submit" value="Enviar">Enviar</button>
-        </div>
 
-        <div class="fale-conosco">
-            <h1>Fale Conosco</h1>
-            <p>Entre em contato conosco usando o nosso formulário. Estamos ansiosos para ouvir de você e ajudá-lo com suas necessidades de construção.</p>
-        </div>
-
-    </section>
-
-    <section class="contato">
+            </section>
 
 
-        <div class="redes-sociais">
-            <a href="index.html"><img src="public/assets/images/logo.png" alt="logo"></a>
-            <p>Juntos conseguimos mudar</p>
-                <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank">
-                    <i class="fa-brands fa-whatsapp fa-2xl" style="color: #171b26;"></i>
-                </a>
+            <hr>
 
-                <a href="https://www.instagram.com/psicologiadamaria?igsh=MTV0OXNlbW9sODNqZw==" target="_blank">
-                    <i class="fa-brands fa-instagram fa-2xl" style="color: #171b26;"></i>
-                </a>
+
+
             
-                <a href="https://www.linkedin.com/in/maria-luiza-fonseca-12428b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #171b26;"></i>
-                </a>
-        </div>
-
-
-
-        <div class="links-uteis" class="smooth-scroll">
-            <a href="#inicio" class="smooth-scroll">Início</a>
-            <a href="#blog" class="smooth-scroll">Blog</a>
-            <a href="#depoimentos" class="smooth-scroll">Depoimentos</a>
-            <a href="#sobre" class="smooth-scroll">Sobre</a>
-            <a href="#localizacao" class="smooth-scroll">Localização</a>
-            <a href="#formulario" class="smooth-scroll">Formulário</a>
-        </div>
-
-
-
-         <div class="contato-dados">
-                <div class="item">
-                    <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank"><i class="fa-solid fa-phone fa-2xl"></i></a>
-                    <p>31 9865-1929</p>
+            <section class="formulario" id="formulario">
+                <div class="formulario-itens">
+                    <form method="post" action="public/scripts/script.php" >
+                        <div class="form-group">
+                            <label for="nome" >Nome</label>
+                            <input type="text" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" name="telefone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="descricao">Mensagem</label>
+                            <textarea name="descricao"  cols="30" rows="10" required></textarea>
+                        </div>
+                    </form>
+                        <button name="create" class="botao-enviar" type="submit" value="Enviar">Enviar</button>
                 </div>
 
-                <div class="item">
-                    <a href="mailto:contato.marialuizapsi@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
-                    <p>contato.marialuizapsi@gmail.com</p>
-                </div>
-            
-                <div class="item">
-                    <a href="#localizacao"><i class="fa-solid fa-location-dot fa-2xl"></i></a>
-                    <p>  R. Álvares Maciel, 362 - Santa Efigênia, Belo Horizonte - MG, 30150-250</p>
+                <div class="fale-conosco">
+                    <h1>Fale Conosco</h1>
+                    <p>Entre em contato conosco usando o nosso formulário. Estamos ansiosos para ouvir de você e ajudá-lo com suas necessidades de construção.</p>
                 </div>
 
-            </div>
+            </section>
 
-    </section>
-
-
-</main>
+            <section class="contato">
 
 
-    <footer>
-        <p>Todos os direitos reservados </p>
-    </footer>
+                <div class="redes-sociais">
+                    <a href="index.html"><img src="public/assets/images/logo.svg" alt="logo"></a>
+                    <p>Juntos conseguimos mudar</p>
+                        <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #171b26;"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/psicologiadamaria?igsh=MTV0OXNlbW9sODNqZw==" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: #171b26;"></i>
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/in/maria-luiza-fonseca-12428b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2xl" style="color: #171b26;"></i>
+                        </a>
+                </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('.smooth-scroll').on('click', function(event) {
-            if (this.hash !== '') {
-                event.preventDefault();
-                var hash = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function(){
-                    window.location.hash = hash;
-                });
-            }
-        });
-    });
-</script>
 
-</body>
+                <div class="links-uteis" class="smooth-scroll">
+                    <a href="#inicio" class="smooth-scroll">Início</a>
+                    <a href="#blog" class="smooth-scroll">Blog</a>
+                    <a href="#depoimentos" class="smooth-scroll">Depoimentos</a>
+                    <a href="#sobre" class="smooth-scroll">Sobre</a>
+                    <a href="#localizacao" class="smooth-scroll">Localização</a>
+                    <a href="#formulario" class="smooth-scroll">Formulário</a>
+                </div>
+
+
+
+                <div class="contato-dados">
+                        <div class="item">
+                            <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank"><i class="fa-solid fa-phone fa-2xl"></i></a>
+                            <p>31 9865-1929</p>
+                        </div>
+
+                        <div class="item">
+                            <a href="mailto:contato.marialuizapsi@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+                            <p>contato.marialuizapsi@gmail.com</p>
+                        </div>
+                    
+                        <div class="item">
+                            <a href="#localizacao"><i class="fa-solid fa-location-dot fa-2xl"></i></a>
+                            <p>  R. Álvares Maciel, 362 - Santa Efigênia, Belo Horizonte - MG, 30150-250</p>
+                        </div>
+
+                    </div>
+
+            </section>
+
+
+        </main>
+
+
+        <footer>
+            <p>Todos os direitos reservados </p>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="public/scripts/script.js"></script>
+
+    </body>
 </html>
